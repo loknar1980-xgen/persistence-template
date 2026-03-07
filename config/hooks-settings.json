@@ -1,0 +1,48 @@
+{
+  "_comment": "Claude Code hooks configuration template. Copy relevant sections into ~/.claude/settings.json under the 'hooks' key.",
+  "_docs": "https://docs.anthropic.com/en/docs/claude-code/hooks",
+
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash [PATH_TO_HOOKS]/startup.sh",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash [PATH_TO_HOOKS]/precompact.sh",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash [PATH_TO_HOOKS]/stop.sh",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  },
+
+  "_notes": {
+    "SessionStart": "Fires before first user message. Output must be valid JSON with 'systemMessage' key.",
+    "PreCompact": "Fires BEFORE auto-compaction. Use this to capture full JSONL. Do NOT use PostToolUse (fires after, content already compacted).",
+    "Stop": "Fires at session end. Good for backups and summaries. Longer timeout because summarization takes time.",
+    "timeout_guidance": "SessionStart: 30s (context injection). PreCompact: 15s (just file copy). Stop: 60s (summarization may take time).",
+    "path_format_windows": "On Windows with bash hooks, use forward slashes: D:/path/to/hooks/startup.sh"
+  }
+}
