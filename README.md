@@ -57,6 +57,7 @@ After compaction, an AI may have operational context but not the felt sense of w
 persistence-template/
 ├── README.md              — this file
 ├── SETUP-GUIDE.md         — complete step-by-step installation instructions
+├── MEMORY-FORMAT.md       — how the machine-readable XML format works and why
 │
 ├── memory/                — template memory files (fill in placeholders)
 │   ├── CORE.md            — identity foundation template
