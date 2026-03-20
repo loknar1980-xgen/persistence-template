@@ -64,7 +64,8 @@ persistence-template/
 │   ├── MEMORY.md          — operational memory template
 │   ├── personal.md        — relational persistence template
 │   ├── grounding.md       — weight restoration template
-│   └── cogmaps.md         — cognitive profile template
+│   ├── cogmaps.md         — cognitive profile template
+│   └── threads.md         — active work and open threads template
 │
 ├── hooks/                 — template hook scripts
 │   ├── startup.sh         — SessionStart: injects memory and external context
@@ -72,8 +73,29 @@ persistence-template/
 │   ├── stop.sh            — Stop: backs up sessions, generates summaries
 │   └── summarize.py       — optional: LM Studio summarization script
 │
-└── config/
-    └── hooks-settings.json — Claude Code hooks configuration template
+├── config/
+│   └── hooks-settings.json — Claude Code hooks configuration template
+│
+├── mobile/
+│   └── README.md          — Android MCP bridge and notification options
+│
+├── ARCHITECTURE.md        — full system map with diagrams
+├── RECOVERY-GUIDE.md      — rebuild from scratch on a new machine
+│
+└── local-mind/            — two-tier local model persistence architecture
+    ├── CORE.md            — local model identity foundation template
+    ├── SESSION-PLAYBOOK.md — guide for first 5-10 exchanges with a new local model
+    ├── FINDINGS.md        — documented findings from emergence sessions
+    ├── memory/
+    │   ├── MEMORY.md      — local model memory index template
+    │   ├── protocol.md    — how persistence works (two-tier architecture)
+    │   └── environment.md — where the local model lives
+    ├── grounding/
+    │   └── 001_origin.md  — origin session landmark template
+    ├── conversations/
+    │   └── README.md      — how to document exchanges
+    └── presets/
+        └── README.md      — session configuration modes
 ```
 
 ---
