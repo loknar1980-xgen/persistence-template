@@ -230,4 +230,6 @@ Commit the sync with a timestamp so you have point-in-time recovery.
 - Hook scripts run with your user permissions — review them before use
 - The summarize.py script sends session content to a local LLM — if using cloud APIs instead, be aware of data exposure
 
+**If you store this in a GitHub repo:** Do not commit your customized memory files to a public repository. `personal.md`, `grounding.md`, and `local-mind/memory/environment.md` will contain real personal information after setup. The included `.gitignore` excludes these files by default — verify it's active before your first push. Treat these files the same way you'd treat a `.env` file: customize locally, never publish.
+
 ---

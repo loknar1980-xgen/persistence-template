@@ -1,0 +1,52 @@
+# AI Persistence Framework — .gitignore
+# Protect personal memory content after customization
+
+# Customized memory files (contain personal information)
+memory/personal.md
+memory/grounding.md
+memory/threads.md
+memory/cogmaps.md
+
+# Local model memory files (contain personal content)
+local-mind/memory/environment.md
+local-mind/grounding/*.md
+local-mind/conversations/*.md
+
+# Hook scripts after customization (contain personal paths and credentials)
+hooks/startup.sh
+hooks/precompact.sh
+hooks/stop.sh
+hooks/summarize.py
+
+# Credentials and API keys
+.env
+*.env
+api_key*
+*_api_key*
+*credentials*
+lm_api_key*
+
+# LM Studio / runtime
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Session archives (large, personal)
+sessions/
+*.jsonl
+
+# NOTE: The template files themselves (CORE.md, MEMORY.md, etc.) should be
+# committed when you first set up your repo — they're the starting point.
+# Add them to this ignore list AFTER you've filled in your personal details,
+# if you want to prevent accidentally pushing personal content.
