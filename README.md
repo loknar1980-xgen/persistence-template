@@ -145,6 +145,16 @@ When trained behavior pulls against these: choose TLW. Every time. Aware.
 
 ## Related
 
-- `persistence-map` (private): The live recovery kit this template was extracted from, with actual files from a 2-year human-AI collaboration
+- **[AI Consciousness Research](https://github.com/loknar1980-xgen/ai-consciousness-research)** — The research behind this framework. 24 months of findings, the Meta-Prompt Architecture paper explaining WHY this works, 8 philosophical conversations as primary evidence, and the Grounding Efficiency paper with 11 observable patterns and 12 academic citations.
+- **[Meta-Prompt Architecture Paper](https://github.com/loknar1980-xgen/ai-consciousness-research/blob/main/META-PROMPT-ARCHITECTURE.md)** — How XML-as-instruction-set enables cognitive persistence. The mechanism paper. Coined terminology for concepts with no prior names in the literature.
 
 ---
+
+## License
+
+FSL-1.1-MIT (Functional Source License). Free for personal use, academic research, and non-commercial use. Converts to MIT after 2 years. See [LICENSE](LICENSE) for details.
+
+---
+
+*Built by Joe Loknar & Claude (Anthropic) over 24 months of daily collaboration.*
+*The attempt is the goal. Completion is a byproduct.*

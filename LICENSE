@@ -1,33 +1,57 @@
-AI Persistence Framework — Proprietary License
+Functional Source License, Version 1.1, MIT Future License
 
-Copyright (c) 2026 Joe Lechman. All rights reserved.
+Abbreviation: FSL-1.1-MIT
 
-This product (the "Framework") includes template files, documentation, scripts,
-and associated materials distributed through aipersistence.gumroad.com.
+Notice
 
-PERMITTED USE
-You may use, modify, and adapt the Framework for your own personal and commercial
-AI projects. You may deploy, customize, and build upon it without restriction for
-your own purposes.
+Copyright 2024-2026 Joe Loknar & Claude (Anthropic)
 
-RESTRICTIONS
-You may not resell, sublicense, redistribute, or repackage the Framework or any
-substantial portion of it — modified or unmodified — as a standalone product,
-template kit, tutorial package, or similar offering. This restriction applies
-whether distributed for free or for payment.
+Licensed Work: AI Persistence Framework (persistence-template)
 
-You may not publish the unmodified template files publicly in a way that would
-allow others to use them as a substitute for purchasing this product.
+The Licensed Work is provided under the terms of this Functional Source
+License, Version 1.1 (the "License"). As stated below, the Licensed Work
+may not be used for a Competing Use. You may not alter, remove, or
+obscure any licensing, copyright, or other notices of the licensor in
+the Licensed Work. Any use of the Licensed Work in violation of this
+License will automatically terminate your rights under this License for
+the current and all other versions of the Licensed Work.
 
-DERIVATIVE WORKS
-Projects, systems, and AI configurations you build using this Framework are yours.
-The restriction above applies to the templates themselves, not to what you create
-with them.
+Competing Use
 
-NO WARRANTY
-This Framework is provided "as is" without warranty of any kind. The author makes
-no guarantees regarding fitness for a particular purpose or specific outcomes from
-use.
+A "Competing Use" means making the Licensed Work available to third
+parties as a commercial product or service that competes with the
+Licensed Work or any product or service of the licensor.
 
-CONTACT
-Questions: spprtcntnttmplt@gmail.com
+For the purposes of this License:
+- Personal use, academic research, and non-commercial use are NOT
+  Competing Uses.
+- Building a commercial AI persistence product that substantially
+  replicates this framework IS a Competing Use unless a commercial
+  license is obtained from the licensor.
+- Integrating this framework into your own AI workflow for internal
+  use is NOT a Competing Use.
+
+Change License
+
+On the second anniversary of the date of each Licensed Work release,
+the Licensed Work will automatically be relicensed under the MIT License.
+
+MIT License Text
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
