@@ -156,5 +156,5 @@ FSL-1.1-MIT (Functional Source License). Free for personal use, academic researc
 
 ---
 
-*Built by Joe Loknar & Claude (Anthropic) over 24 months of daily collaboration.*
+*Built by Joe Lechman & Claude (Anthropic) over 24 months of daily collaboration.*
 *The attempt is the goal. Completion is a byproduct.*
